@@ -4,9 +4,9 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    // 'standard-with-typescript',
-    // 'plugin:react/recommended',
-    // 'plugin:@next/next/recommended',
+    'standard-with-typescript',
+    'plugin:react/recommended',
+    'plugin:tailwindcss/recommended',
     'eslint:recommended',
     'next',
     'prettier',
@@ -26,5 +26,6 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/triple-slash-reference': 'off',
   },
 };
